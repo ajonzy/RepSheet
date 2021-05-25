@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Reputation Sheet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="rep.css">
+    <link rel="stylesheet" href="duty.css">
+    <link rel="stylesheet" href="obligation.css">
+    <link rel="stylesheet" href="morality.css">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        h1 {
+        font-family: 'Righteous', cursive;
+        }
+
+        .heading-wrapper {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+
+        .heading-wrapper span {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="heading-wrapper">
+        <h1>Character Name:<span>__________________</span></h1>
+        <h1>Player Name:<span>__________________</span></h1>
+    </div>
+
+    <div class="rep-wrapper">
+        <div class="rep-header">
+            <h1>REPUTATION</h1>
+        </div>
+
+        <div class="rep-content">
+            <div class="rep-guide">
+                <p>How to earn:</p>
+                <p>Achieve Major Objective: +3</p>
+                <p>Achieve Minor Objective: +2</p>
+                <p>Played Character Motivation: +1</p>
+                <p>Excellent Roleplaying / No Metagaming: +1</p>
+            </div>
+
+            <div class="rep-squares">
+                <div class="rep-square">
+                    <div class="square-header">
+                        <p>Session 1-5</p>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>1:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>2:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>3:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+                    
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>4:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>5:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rep-square">
+                    <div class="square-header">
+                        <p>Session 6-10</p>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>6:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>7:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>8:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+                    
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>9:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>10:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rep-square">
+                    <div class="square-header">
+                        <p>Session 11-15</p>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>11:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>12:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>13:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+                    
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>14:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>15:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rep-square">
+                    <div class="square-header">
+                        <p>Session 16-20</p>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>16:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>17:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>18:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+                    
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>19:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>20:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rep-square">
+                    <div class="square-header">
+                        <p>Session 21-25</p>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>21:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>22:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>23:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+                    
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>24:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>25:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rep-square">
+                    <div class="square-header">
+                        <p>Session 26-30</p>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>26:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>27:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>28:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+                    
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>29:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>30:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rep-square">
+                    <div class="square-header">
+                        <p>Session 31-35</p>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>31:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>32:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>33:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+                    
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>34:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>35:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rep-square">
+                    <div class="square-header">
+                        <p>Session 36-40</p>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>36:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>37:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>38:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+                    
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>39:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+
+                    <div class="square-content">
+                        <div class="session-num">
+                            <p>40:</p>
+                        </div>
+
+                        <div class="session-tracker">
+                            <p>□□□□□□□</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="duty-wrapper">
+        <div class="duty-header">
+            <h1>DUTY</h1>
+        </div>
+
+        <div class="duty-content">
+            <div class="duty-guide">
+                <p>How to earn:</p>
+                <p>Go Above and Beyond During Mission to Benefit Attatock.</p>
+                <p>Gain a new contact, Gather recources, etc.</p>
+            </div>
+
+            <div class="duty-squares">
+                <div class="duty-square">
+                    <div class="duty-level">
+                        <p>Unkown</p>
+                    </div>
+
+                    <div class="duty-tracker">
+                        <p>□   □</p>
+                    </div>
+
+                    <div class="duty-reward">
+                        <p>500 CR / Session</p>
+                    </div>
+                </div>
+
+                <div class="duty-square">
+                    <div class="duty-level">
+                        <p>Acknowledged</p>
+                    </div>
+
+                    <div class="duty-tracker">
+                        <p>□   □   □   □</p>
+                    </div>
+
+                    <div class="duty-reward">
+                        <p>1 Consumable per Session, 100 CR Value</p>
+                    </div>
+                </div>
+
+                <div class="duty-square">
+                    <div class="duty-level">
+                        <p>Recognized</p>
+                    </div>
+
+                    <div class="duty-tracker">
+                        <p>□   □   □   □   □   □</p>
+                    </div>
+
+                    <div class="duty-reward">
+                        <p>1000 CR / Session</p>
+                    </div>
+                </div>
+
+                <div class="duty-square">
+                    <div class="duty-level">
+                        <p>Trusted</p>
+                    </div>
+
+                    <div class="duty-tracker">
+                        <p>□   □   □   □   □   □   □   □</p>
+                    </div>
+
+                    <div class="duty-reward">
+                        <p>Recieve One Time Shopping Spree, <br>10,000 CR Maximum Value</p>
+                    </div>
+                </div>
+
+                <div class="duty-square">
+                    <div class="duty-level">
+                        <p>Respected</p>
+                    </div>
+
+                    <div class="duty-tracker">
+                        <p>□   □   □   □   □   □   □   □   □   □</p>
+                    </div>
+
+                    <div class="duty-reward">
+                        <p>1500 CR / Session; Intel, Old Friend, <br>or Heavy Ordinace per Session</p>
+                    </div>
+                </div>
+
+                <div class="duty-square">
+                    <div class="duty-level">
+                        <p>Admired</p>
+                    </div>
+
+                    <div class="duty-tracker">
+                        <p>□   □   □   □   □   □   □   □   □   □   □   □</p>
+                    </div>
+
+                    <div class="duty-reward">
+                        <p>Fleet Support</p>
+                    </div>
+                </div>
+
+                <div class="duty-square">
+                    <div class="duty-level">
+                        <p>Revered</p>
+                    </div>
+
+                    <div class="duty-tracker">
+                        <p></p>
+                    </div>
+
+                    <div class="duty-reward">
+                        <p>Attendant Minion Group; <br>May Become Canonical NPC</p>
+                    </div> 
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="obligation-wrapper">
+        <div class="ob-header">
+            <h1>OBLIGATION</h1>
+        </div>
+
+        <div class="ob-content">
+            <div class="ob-squares">
+                <div class="ob-square">
+                    <div class="ob-tracker">
+                        <p>□□□□□</p>
+                    </div>
+
+                    <div class="ob-consequence">
+                        <p>-1 Strain<br>Threshold</p>
+                    </div>
+                </div>
+
+                <div class="ob-square">
+                    <div class="ob-tracker">
+                        <p>□□□□□</p>
+                    </div>
+
+                    <div class="ob-consequence">
+                        <p>-2 Strain<br>Threshold</p>
+                    </div>
+                </div>
+
+                <div class="ob-square">
+                    <div class="ob-tracker">
+                        <p>□□□□□</p>
+                    </div>
+
+                    <div class="ob-consequence">
+                        <p>-3 Strain<br>Threshold</p>
+                        <p>Flip LSDP<br>to DSDP</p>
+                    </div>
+                </div>
+
+                <div class="ob-square">
+                    <div class="ob-tracker">
+                        <p>□□□□□</p>
+                    </div>
+
+                    <div class="ob-consequence">
+                        <p>-4 Strain<br>Threshold</p>
+                        <p>Can Not Earn<br>Duty</p>
+                    </div>
+                </div>
+
+                <div class="ob-square">
+                    <div class="ob-tracker">
+                        <p>□□□□□</p>
+                    </div>
+
+                    <div class="ob-consequence">
+                        <p>-5 Strain<br>Threshold</p>
+                        <p>-2xp per<br>Session</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ob-options">
+                <h4>Obligation Options:</h3>
+                <p>+5 Obligation, Character Creation Only: +5xp OR 1000 CR</p>
+                <p>+10 Obligation, Character Creation Only: +10xp OR 2500 CR<br><br></p>
+                <p>+1 Obligation: Minor help; Add Boost Die to check</p>
+                <p>+3 Obligation: Moderate help; Add Ability Die to check</p>
+                <p>+5 Obligation: Major help; Add Proficiency Die to check</p>
+                <p>+5 Obligation: 500 CR or +5xp</p>
+                <p>+5 * X Obligation: Add mod to attachment for free. +5 obligation for each mod on attachment</p>
+                <p>+15 Obligation: Escape Death<br><br></p>
+                <p>-X Obligation: -X Reputaion</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="morality-wrapper">
+        <div class="mor-header">
+            <h1>MORALITY</h1>
+        </div>
+
+        <div class="mor-content">
+            <div class="mor-soak">
+                <div class="mor-soak-bubble">
+                    <div class="bubble">
+                        <!-- &#9898; -->
+                        <i class="far fa-circle"></i>
+                    </div>
+
+                    <div class="name">
+                        Soak
+                    </div>
+                </div>
+
+                <div class="mor-soak-options">
+                    <div class="mor-soak-option">
+                        <div class="soak-level">
+                            0:&nbsp
+                        </div>
+
+                        <div class="soak-effect">
+                            +5 Strain Threshold, +1 Force Rating, +Boost Die to all Checks
+                        </div>
+                    </div>
+
+                    <div class="mor-soak-option">
+                        <div class="soak-level">
+                            1:&nbsp
+                        </div>
+
+                        <div class="soak-effect">
+                            +2 Strain Threshold
+                        </div>
+                    </div>
+
+                    <div class="mor-soak-option">
+                        <div class="soak-level">
+                            2:&nbsp
+                        </div>
+
+                        <div class="soak-effect">
+                            -1 Force Rating
+                        </div>
+                    </div>
+
+                    <div class="mor-soak-option">
+                        <div class="soak-level">
+                            3:&nbsp
+                        </div>
+
+                        <div class="soak-effect">
+                            -1 Stain Threshold, -1 Force Rating
+                        </div>
+                    </div>
+
+                    <div class="mor-soak-option option4">
+                        <div class="soak-level">
+                            4:&nbsp
+                        </div>
+
+                        <div class="soak-effect">
+                            -3 Strain Threshold, -1 Force Rating, +Setback Die to all Social Checks
+                        </div>
+                    </div>
+
+                    <div class="mor-soak-option">
+                        <div class="soak-level">
+                            5:&nbsp
+                        </div>
+
+                        <div class="soak-effect">
+                            -5 Strain Threshold, -2 Force Rating, +Setback Die to all Checks
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="mor-tracker-wrapper">
+                <div class="mor-tracker-object">
+                    <div class="mor-tracker">
+                        <p class="end">□</p>
+                    </div>
+
+                    <div class="mor-effect">
+                        <p>+1 Force Rating</p>
+                    </div>
+                </div>
+
+                <div class="mor-divider">
+                    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+                </div>
+                    
+                <div class="mor-tracker-object">
+                    <div class="mor-tracker">
+                        <p>□□□□□□□□□</p>
+                    </div>
+
+                    <div class="mor-effect">
+                        <p>+2 Strain Threshold, +Boost Die to all Checks</p>
+                    </div>
+                </div>
+
+                <div class="mor-divider">
+                    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+                </div>
+
+                <div class="mor-tracker-object">
+                    <div class="mor-tracker">
+                        <p>□□□□□□□□□□</p>
+                    </div>
+
+                    <div class="mor-effect">
+                        <p>+1 Strain Threshold, +Boost Die to all Social Checks</p>
+                    </div>
+                </div>
+
+                <div class="mor-divider">
+                    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+                </div>
+
+                <div class="mor-tracker-object">
+                    <div class="mor-tracker">
+                        <p>□□□□□□□□□□</p>
+                    </div>
+
+                    <div class="mor-effect">
+                        <p>+1 Light Side Destiny Point</p>
+                    </div>
+                </div>
+
+                <div class="mor-divider">
+                    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+                </div>
+
+                <div class="mor-tracker-object">
+                    <div class="mor-tracker">
+                        <p>□□□□□□□□□□<br>□□□□□□□□□</p>
+                    </div>
+                </div>
+
+                <div class="mor-tracker-start">
+                    <p>-------Start<span class="start">□</span>------------
+                        <img src="jedi.png" alt="Jedi">
+                        <img src="empire.png" alt="Empire">
+                    </p>
+                    
+                </div>
+
+                <div class="mor-tracker-object">
+                    <div class="mor-tracker">
+                        <p>□□□□□□□□□<br>□□□□□□□□□□</p>
+                    </div>
+                </div>
+
+                <div class="mor-divider">
+                    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+                </div>
+
+                <div class="mor-tracker-object">
+                    <div class="mor-tracker">
+                        <p>□□□□□□□□□□</p>
+                    </div>
+
+                    <div class="mor-effect">
+                        <p>Dark Side Force User, Flip LSDP to DSDP</p>
+                    </div>
+                </div>
+
+                <div class="mor-divider">
+                    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+                </div>
+
+                <div class="mor-tracker-object">
+                    <div class="mor-tracker">
+                        <p>□□□□□□□□□□</p>
+                    </div>
+
+                    <div class="mor-effect">
+                        <p>-1 Strain Threshold, +5 Wound Threshold</p>
+                    </div>
+                </div>
+
+                <div class="mor-divider">
+                    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+                </div>
+
+                <div class="mor-tracker-object">
+                    <div class="mor-tracker">
+                        <p>□□□□□□□□□</p>
+                    </div>
+
+                    <div class="mor-effect">
+                        <p>-2 Strain Threshold, +5 Wound Threshold</p>
+                    </div>
+                </div>
+
+                <div class="mor-divider">
+                    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+                </div>
+
+                <div class="mor-tracker-object">
+                    <div class="mor-tracker">
+                        <p class="end">□</p>
+                    </div>
+
+                    <div class="mor-effect">
+                        <p>Permanently Lost to the Dark Side. Immediately Remove Character from Play.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

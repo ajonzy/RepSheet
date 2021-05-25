@@ -1,0 +1,56 @@
+.obligation-wrapper {
+    width: 700px;
+    /* height: 250px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.obligation-wrapper > .ob-content > .ob-squares {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    border-radius: 2px;
+    width: 605px;
+    background-image: linear-gradient(to left, #C81700, white, white);
+}
+
+.ob-squares > .ob-square {
+    border: 1px solid;
+    border-radius: 2px;
+    width: 121px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    
+}
+
+.ob-square > .ob-tracker {
+    height: 25px;
+}
+
+.ob-square > .ob-tracker p {
+    font-size: 1.8em;
+    margin: 0px;
+    transform: translateY(-5px);
+}
+
+.ob-square > .ob-consequence p {
+    margin: 1px;
+}
+
+.ob-content > .ob-options h4 {
+    margin: 8px 0px 3px 0px;
+}
+
+.ob-content > .ob-options p {
+    margin: 1px 0px 1px 20px;
+}
+
+.ob-content > .ob-options :nth-child(2), .ob-options :nth-child(3) {
+    font-style: italic;
+}

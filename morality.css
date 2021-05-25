@@ -1,0 +1,116 @@
+.morality-wrapper {
+    width: 782px;
+    height: 751px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    transform: translate(718px, -767px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to top, #2d2e5f, white, white);
+}
+
+.morality-wrapper > .mor-header {
+    height: 60px;
+}
+
+.morality-wrapper > .mor-content > .mor-soak {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+}
+
+ .mor-soak > .mor-soak-bubble {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mor-soak > .mor-soak-bubble > .bubble {
+    transform: translateY(-50px);
+    font-size: 8em;
+    height: 100px;
+} 
+
+.mor-soak-bubble > .name {
+    font-size: 1.5em;
+    font-weight: 700;
+}  
+
+.mor-soak > .mor-soak-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+}
+
+.mor-soak-options > .mor-soak-option {
+    display: flex;
+    align-items: flex-start;
+    width: 550px;
+}
+
+.mor-soak-option > .soak-level {
+    font-weight: 700;
+}
+/* 
+.mor-soak-options > .option4 {
+    transform: translateY(-3px);
+} */
+
+.mor-content > .mor-tracker-wrapper {
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.mor-content > .mor-tracker-wrapper > .mor-tracker-object {
+    display: flex;
+}
+
+.mor-content > .mor-tracker-wrapper > .mor-tracker-object > .mor-tracker {
+    width: 145px;
+    padding-right: 15px;
+}
+
+.mor-content > .mor-tracker-wrapper > .mor-tracker-object > .mor-tracker p {
+    margin: 1px;
+    font-size: 1.5em;
+    line-height: .7em;
+}
+
+.mor-content > .mor-tracker-wrapper > .mor-tracker-object .end {
+    text-align: center;
+}
+
+.mor-content > .mor-tracker-wrapper > .mor-tracker-object > .mor-effect p {
+    margin: 1px;
+    font-size: 0.8em;
+    transform: translateY(3px);
+}
+
+.mor-content > .mor-tracker-wrapper > .mor-divider p {
+    margin: 1px;
+    height: 10px;
+    transform: translateY(-5px);
+}
+
+.mor-content > .mor-tracker-wrapper > .mor-tracker-start > p {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.mor-content > .mor-tracker-wrapper > .mor-tracker-start > p .start {
+    font-size: 1.5em;
+    transform: translateY(-2px);
+}
+
+.mor-content > .mor-tracker-wrapper > .mor-tracker-start img {
+    height: 50px;
+    margin: 0px 90px;
+}
